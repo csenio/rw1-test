@@ -1,0 +1,24 @@
+.User {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: stretch;
+  column-gap: 2rem;
+  padding: 0.4rem 0;
+}
+
+.User img {
+  border-radius: 50%;
+  width: 3rem;
+}
+
+.User-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.User-description p {
+  margin: 0 0 0.2rem 0;
+}
